@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- Author: CabaCrD -->
+<html lang="es">
+
+<!-- Author: CabaCrD -->
+
+  <head>
+  
+    <!-- CON ESTO LO OPTIMIZAREMOS TAMBIEN PARA DISPOSITIVOS MOVILES -->
+    <meta charset="UTF-8" >  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>       
+    <title>Piedra, papel, tijera</title>
+    
+  </head>
+
+  <body class="body">
+  
+<!-- AQUI VA LA CABECERA -->
+
+  <div class="container">
+
+    <div class="row d-flex align-items-start col-12">
+
+      <div class="p-3 mb-4 col-md-12 m-1 ">
+
+        <header>    
+
+          <h1 class ="text-center fw-bold">PIEDRA, PAPEL O TIJERA</h1>     
+
+        </header>
+
+      </div>
+
+    </div>  
+
+  </div>     
+  
+  <div class="container ">
+
+
+    <div class="row d-flex justify-content-center text-center col-12">
+    
+      <!-- CAJA 1 -->
+      
+      <div class=" p-3 mb-4 me-2 text-white me-1 col-xs-12 col-md-6" id="empezar">
+
+        <section>
+
+          <h4 class="fw-bold btn class-btn bg-success text-white">COMENZAR/REINICIAR</h4>
+
+        </section>
+
+      </div>
+
+    </div>
+    
+  </div>
+      
+
+  <div class="container ">
+
+
+    <div class="row d-flex justify-content-around text-center col-12">
+    
+      <!-- CAJA 1 -->
+      
+      <div class="w-30 p-3 mb-4  me-1 bg-info col-xs-12 col-md-3 text-dark">
+
+        <section>
+
+          <h2 class="fw-bolder text-white">Mina</h2>
+  
+          <form class="form-block mb-3">
+
+            <input type="button" class="btn class-btn bg-warning fw-bold" id="piedraMina" name="piedra" value = "piedra 👊🏼"  disabled>
+            <input type="button" class="btn class-btn bg-danger fw-bold" id="papelMina"  name="papel"  value = "papel ✋🏽"   disabled>
+            <input type="button" class="btn class-btn bg-light fw-bold" id="tijeraMina" name="tijera" value = "tijera ✌🏿"  disabled>
+
+          </form>
+
+          <div>
+
+            <img id="mina" src="./img/mina/mNeutral.png" alt="EmocionDelPesonaje">
+
+          </div>
+
+        </section>
+
+      </div>
+    
+   <!-- CAJA 2 -->
+   
+      <div class="w-30 p-3 mb-4 bg-primary col-xs-12 col-md-3 text-dark">
+
+        <section>
+
+          <h2 class="fw-bolder text-white">Markus(IA)</h2>
+
+          <form class="form-block mb-3">
+
+            <input type="button" class="btn class-btn bg-warning fw-bold" id="piedraMarkus" value = "piedra 👊🏼"  disabled>
+            <input type="button" class="btn class-btn bg-danger fw-bold" id="papelMarkus"  value = "papel ✋🏽"   disabled>
+            <input type="button" class="btn class-btn bg-light fw-bold" id="tijeraMarkus" value = "tijera ✌🏿"  disabled>
+
+          </form>
+
+          <div>
+
+            <img id="markus" src="./img/markus/markusNeutral.png" alt="EmocionDelPesonaje">
+            
+          </div>
+          
+
+        </section>
+
+      </div>
+      
+      
+      <!-- FIN DE LAS CAJAS -->
+      
+    </div>
+  </div>   
+  <!-- EMPIEZA EL FOOTER -->  
+  
+    <div class="container">
+
+      <div class="row d-flex align-items-end col-12">
+
+        <div class="p-3 mb-2  col-md-12 text-center fw-bold">
+
+          <footer class="text-white fw-bolder">
+
+            <h2>TECNOLOGIAS USADAS</h2>
+
+
+              <p>JavaScript/Jquery</p>
+              <p>CSS/Bootstrap</p>
+              <p>HTML</p>
+
+
+
+          </footer>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+    <script src="./js/script.js"></script> 
+    <script src="./js/functions.js"></script>
+
+  </body>
+ 
+</html>

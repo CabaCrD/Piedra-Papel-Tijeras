@@ -1,0 +1,16 @@
+/* Author: CabaCrD */
+
+@charset "UTF-8";
+
+/** LA UNICAS LINEAS QUE USARE AQUÍ SON PARA EL FONDO**/
+.body{
+
+    background: rgb(169,226,242);
+    background: linear-gradient(150deg, rgba(169,226,242,1) 8%, rgba(9,80,121,1) 57%, rgba(5,210,134,1) 99%); 
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    
+} 
